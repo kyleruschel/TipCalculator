@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Button, StyleSheet } from 'react-native';
 
-const TipButton = ({ title, onPress }) => {
+const ResetButton = ({ title, onPress }) => {
     return (
         <View style={styles.buttonStyling}>
-            <Button title={title} onPress={() => onPress(title)} />
+            <Button title={title} onPress={() => onPress()} />
         </View>
     )
 }
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default TipButton;
+export default ResetButton;

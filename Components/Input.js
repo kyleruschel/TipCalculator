@@ -1,15 +1,15 @@
 import React from 'react';
-import { View, StyleSheet, TextInput, ShadowPropTypesIOS } from 'react-native';
+import { View, StyleSheet, TextInput } from 'react-native';
 
-const Input = ({ val, setVal, onPress }) => {
+const Input = ({ val, setVal }) => {
     return (
         <View style={styles.root}>
-            <TextInput
-                keyboardType='numbers-and-punctuation'
-                style={styles.input}
-                value={val}
-                onChange={e => setVal(e.nativeEvent.text)}
-            />
+                <TextInput
+                    keyboardType='numeric'
+                    style={styles.input}
+                    value={val}
+                    onChange={e => setVal(e.nativeEvent.text)}
+                />
         </View>
     );
 }
@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
         width: 100,
         backgroundColor: '#f4f4f8',
         borderRadius: 8,
+        textAlign: 'center',
     }
 })
 

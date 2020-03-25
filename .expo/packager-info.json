@@ -1,9 +1,9 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 76966,
-  "expoServerNgrokUrl": "https://ns-2nd.anonymous.tipcalculator.exp.direct",
-  "packagerNgrokUrl": "https://packager.ns-2nd.anonymous.tipcalculator.exp.direct",
-  "ngrokPid": 76999
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null
 }
