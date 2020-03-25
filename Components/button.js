@@ -5,9 +5,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 const TipButton = ({ title, onPress }) => {
     return (
         <View style={styles.buttonStyling}>
-            <TouchableOpacity>
-                <Button title={title} onPress={() => onPress(title)} />
-            </TouchableOpacity>
+            <Button title={title} onPress={() => onPress(title)} />
         </View>
     )
 }
