@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     width: 250,
     fontFamily: 'Savoye LET',
     color: '#f4f4f8',
-    marginTop: '80%',
+    marginTop: '65%',
   },
   instructions: {
     textAlign: 'center',
